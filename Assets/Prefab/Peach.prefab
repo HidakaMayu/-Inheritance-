@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2794989349277054588}
   - component: {fileID: 7794506289950178110}
   - component: {fileID: 2037413170681349849}
-  - component: {fileID: 9103473735903665918}
+  - component: {fileID: 2600421081841925195}
   m_Layer: 0
   m_Name: Peach
   m_TagString: Untagged
@@ -121,7 +121,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 5
---- !u!114 &9103473735903665918
+--- !u!114 &2600421081841925195
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -130,7 +130,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 3541172798517699391}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0d513427ac0cd34189eede7e3ae283c, type: 3}
+  m_Script: {fileID: 11500000, guid: a5d930a51b014064491b9d8333b88760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_sound: {fileID: 8300000, guid: 68cf7d639467f0747b9b910c95419f15, type: 3}
+  m_sound: {fileID: 8300000, guid: 0a04cbd1d1782c547b1e37041cd2c1cc, type: 3}
+  m_score: 50

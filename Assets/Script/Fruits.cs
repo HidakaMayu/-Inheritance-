@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 
-public class Apple : KteiBase
+public class Fruits : KteiBase
 {
     /// <summary>取った時に加点する値</summary>
-    int m_score = 100;
+    public int m_score;
 
     public override void Activate()
     {
