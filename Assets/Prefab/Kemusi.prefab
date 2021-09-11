@@ -133,6 +133,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab4700fb3512bea408e9066df60b3828, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  particle: {fileID: 3970246996753267977, guid: b7dc1da41c191044eb4f863bebb54a1b,
-    type: 3}
-  DeathLife: 16
+  m_sound: {fileID: 8300000, guid: 7998fa9aa28a49d4e9856aae44e8d08e, type: 3}
+  m_DeathLife: 20

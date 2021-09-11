@@ -4,10 +4,10 @@ using UnityEngine;
 
 public abstract class KteiBase : MonoBehaviour
 {
-/*
+
     /// <summary>アイテムを取った時に鳴る効果音</summary>
     [Tooltip("アイテムを取った時に鳴らす効果音")]
-    [SerializeField] AudioClip m_sound = default;*/
+    [SerializeField] AudioClip m_sound = default;
 
     public abstract void Activate();
 
@@ -21,11 +21,11 @@ public abstract class KteiBase : MonoBehaviour
          }
     }
     void OnCollisionEnter2D(Collision2D collision)
-    {/*
+    {
         if (m_sound)
         {
             AudioSource.PlayClipAtPoint(m_sound, Camera.main.transform.position);
-        }*/
+        }
 
         if (collision.gameObject.tag.Equals("Player"))
         {
